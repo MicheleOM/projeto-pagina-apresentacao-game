@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Sonic Generations - Game</title>
+
+        <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/style.css">
+        <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    </head>
+    <body>
+        <div class="fundo-video">
+            <video class="video" autoplay muted loop>
+                <source src="./src/video/SONIC GENERATIONS E3 TRAILER.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <header class="cabecalho">
+            <a>
+                <img class="logo" src="./src/images/logo.png" alt="logo do sonic">
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Detalhes</a></li> 
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+            <div class="informacoes">
+
+                <img class="imagem-titulo" src="./src/images/titulo.png" alt="imagem do título do filme">
+
+                <p class="descricao">Enquanto Sonic celebra o seu 20 aniversario com os amigos, um estranho buraco de tempo provocado por uma misteriosa criatura chamada Time Eater aparece, sugando todas as pessoas e espalhando-os ao longo do tempo. Enquanto Sonic procura os seus amigos, ele acaba encontrando a si mesmo alguns anos mais novo, Sonic Classico. Ambos (Sonic Moderno e Sonic Classico) decidem colaborar e competir atraves de sua historia a fim de salvar seus amigos e corrigir o fluxo do tempo. </p>
+
+                <button class="botao-trailer">Assista um gameplay</button>
+            </div>
+
+            <img class="sonic" src="./src/images/sonic-friends.png">
+
+            <div class="modal">
+                <div class="conteudo-modal">
+                    <span class="fechar-modal">X</span>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/QMopx-E4la0" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </main>      
+    </body>
+    <script src="./src/js/index.js"></script>
+</html>
